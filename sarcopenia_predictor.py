@@ -29,7 +29,7 @@ wc = st.number_input("WC (腰围) (cm):", min_value=40, max_value=160, value=80)
 dbp = st.number_input("DBP (舒张压) (mmHg):", min_value=40, max_value=140, value=80)
 
 # HGB: numerical input
-hgb = st.number_input("HGB (血红蛋白) (g/L):", min_value=60, max_value=200, value=130)
+hgb = st.number_input("HGB (血红蛋白) (g/L):", min_value=60, max_value=200, value=120)
 
 # Process inputs and make predictions
 feature_values = [age, bmi, wc, dbp, hgb]
